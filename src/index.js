@@ -65,7 +65,7 @@ const Editor = props => {
 const Previewer = props => {
   return (
     <div
-      id="previewer"
+      id="preview"
       dangerouslySetInnerHTML={{
         __html: marked(props.markdown, { renderer: renderer })
       }}
